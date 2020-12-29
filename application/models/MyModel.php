@@ -125,6 +125,10 @@ public function getPorto()
 
 		# code...
 	}
+	public function tambah_komen($in)
+	{
+		return $this->db->insert('komentar', $in);
+	}
                         
                             
                         
