@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 500px;
+    background-image: url('img/what-the-hex-dark.png');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.header {
+    min-height: 50px;
+    line-height: 50px;
+}
+
+.header h1 {
+    margin: 0 50px;
+    color: #87cefa;
+    float: left;
+}
+
+.header .menu ul {
+    margin: 0 50px;
+    float: right;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .menu ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.header .menu ul li a.active {
+    color: #87cefa;
+}
+
+/* content */
+
+.content {
+    min-height: 250px;
+    color: #ffffff;
+}
+
+.content .main {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgba(45, 45, 68, .7);
+    overflow: hidden;
+}
+
+.content .main .wrap {
+    margin: 50px;
+    overflow: hidden;
+}
+
+.content .main .wrap .profile {
+    width: 60%;
+    box-sizing: content-box;
+    float: left;
+}
+
+.content .main .wrap .profile .greeting p{
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 0 1px 1px #000000;
+    filter: drop-shadow(5px 5px 5px #1e1e2c);
+    background-color: #87cefa;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content .main .wrap .profile hr {
+    margin-bottom: 30px;
+}
+
+.content .main .wrap .profile .biodata {
+    font-weight: bold;
+    float: left;
+}
+
+.content .main .wrap .profile .data {
+    float: left;
+    margin-left: 50px;
+}
+
+.content .main .wrap .profile .data a {
+    display: block;
+    margin: 16px 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content .main .wrap .profile .data a:hover {
+    color: #87cefa;
+}
+
+.content .main .wrap .picture {
+    width: 40%;
+    height: 350px;
+    text-align: right;
+    box-sizing: content-box;
+    float: right;
+}
+
+.content .main .wrap .picture img {
+    height: 350px;
+}
+
+/* footer */
+
+.footer {
+    min-height: 50px;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+}

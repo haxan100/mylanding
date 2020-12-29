@@ -1,0 +1,2 @@
+[03-Oct-2020 16:51:53 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/heyiamha/public_html/template/vendor/ramsey/uuid/src/functions.php on line 14
+[03-Oct-2020 16:51:53 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/heyiamha/public_html/template/vendor/ramsey/uuid/src/functions.php on line 34
